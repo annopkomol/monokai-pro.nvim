@@ -14,6 +14,7 @@ M.create_filter_command = function()
       "machine",
       "ristretto",
       "spectrum",
+      "mono-night",
     }, function(item)
       local filter = item.value
       config.extend({ filter = filter })
@@ -37,6 +38,7 @@ M.create_filter_command = function()
         "machine",
         "ristretto",
         "spectrum",
+        "mono-night",
       }
     end,
   })
